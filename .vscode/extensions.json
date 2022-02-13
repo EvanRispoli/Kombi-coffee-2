@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "saber2pr.todolist"
+        "saber2pr.todolist",
+        "bysabi.prettier-vscode-standard"
     ]
 }
