@@ -11,8 +11,8 @@ body {
 #home {
   background-image: linear-gradient(
       to bottom,
-      rgba(255, 210, 168, 0.5),
-      rgba(90, 60, 14, 0.5)
+      rgba(41, 26, 3, 0.918),
+      rgba(92, 55, 14, 0.281)
     ),
     url(/images/osen-listia-fon-derevo-kofe-colorful-kruzhka-chashka-vintage.jpg);
   background-repeat: no-repeat;
@@ -47,8 +47,9 @@ header {
   margin-right: auto;
   text-align: justify;
   font-size: 2em;
-  margin-bottom: 5%;
+  padding-bottom: 20%;
   width: 70%;
+
 }
 
 #titulo {
