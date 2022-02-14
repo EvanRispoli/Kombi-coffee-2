@@ -1,19 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;800&display=swap");
 html {
-
-    background-image: ;
-  
 }
+
 body {
   font-family: "Playfair Display", serif;
-  max-width: 75%;
+
   margin-left: auto;
   margin-right: auto;
-  color: #0d1d0d;
-  background-color: #ffffff;
 }
+#home {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 210, 168, 0.5),
+      rgba(90, 60, 14, 0.5)
+    ),
+    url(/images/osen-listia-fon-derevo-kofe-colorful-kruzhka-chashka-vintage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f5faf5;
+  line-height: 3em;
+}
+
 header {
-  color: #575252;
+  color: #f5faf5;
   text-align: center;
   width: 100%;
   display: block;
@@ -27,58 +36,115 @@ header {
 }
 
 .nav-itens {
+  font-weight: bold;
   display: inline-block;
   text-decoration: none;
-  color: #0d1d0d;
-  
+  color: #f5faf5;
 }
 
 .container {
-    margin-top: 5%;
-
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  font-size: 2em;
+  margin-bottom: 5%;
+  width: 70%;
 }
 
 #titulo {
+  margin-top: 10%;
+  margin-bottom: 10%;
   text-align: center;
   font-size: 3em;
   font-weight: 550;
   margin-bottom: 0.5em;
+  width: 100%;
+  line-height: 1em;
 }
 
 #banner {
-  width: 100%;
-  max-height: 100%;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+  margin-bottom: 10%;
 }
 
-#video,
+.media {
+  text-align: justify;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(243, 211, 181, 0.5),
+      rgba(243, 210, 160, 0.5)
+    ),
+    url(images/pexels-jessica-lewis-creative-606545.jpg);
+  background-size: cover;
+  color: #030303d3;
+  font-size: 1.2em;
+}
+
+#video{
+
+    display: block;
+    width: 800px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 2%;
+
+}
 #mapa {
-  
-  display: block;
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 3%;
-  margin-bottom: 2%;
+
+    display: block;
+    width: 600px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 2%;
+
 }
 
 h2 {
   text-align: center;
-  font-size: 2em;
+  font-size: 2.5em;
   font-weight: 550;
   margin-top: 1em;
   margin-bottom: 0.5em;
 }
 
 .texto {
-  font-size: 20px;
-  
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  font-size: 1.5em;
   line-height: 1.5em;
 }
-.endereco{
-    font-size: 20px;
-    text-align: center;
+
+
+.local {
+    padding-top: 2%;
+    padding-bottom: 2%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #f5faf5;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(82, 56, 32, 0.5),
+    rgba(255, 255, 255, 0)
+  ),url(images/localizacao.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
 }
 
 footer {
+    margin-top: 25%;
   text-align: center;
 }
