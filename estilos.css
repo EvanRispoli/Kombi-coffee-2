@@ -11,10 +11,10 @@ body {
 #home {
   background-image: linear-gradient(
       to bottom,
-      rgba(41, 26, 3, 0.918),
-      rgba(92, 55, 14, 0.281)
+      rgba(5, 5, 5, 0.918),
+      rgba(51, 34, 15, 0.849)
     ),
-    url(/images/vintage.jpg);
+    url(/Kombi-coffee-2/images/Cafe-wallpaper.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: #f5faf5;
@@ -76,8 +76,9 @@ header {
   padding-bottom: 5%;
   background-image: linear-gradient(
       to bottom,
-      rgba(243, 211, 181, 0.5),
-      rgba(243, 210, 160, 0.5)
+      rgba(252, 250, 247, 0.562),
+      rgba(20, 16, 9, 0.9)
+      
     ),
     url(images/pexels-jessica-lewis-creative-606545.jpg);
   background-size: cover;
