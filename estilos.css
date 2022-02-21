@@ -146,3 +146,17 @@ footer {
   margin-top: 25%;
   text-align: center;
 }
+
+#mainmenu{
+  background-image: linear-gradient(
+      to bottom,
+      rgba(5, 5, 5, 0.918),
+      rgba(51, 34, 15, 0.849)
+    ),
+    url(/Kombi-coffee-2/images/mainmenu.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f5faf5;
+  line-height: 3em;
+}
+
