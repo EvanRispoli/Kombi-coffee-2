@@ -53,6 +53,7 @@ header {
 }
 
 #titulo {
+  color: white;
   margin-top: 10%;
   margin-bottom: 10%;
   text-align: center;
@@ -121,7 +122,18 @@ h2 {
   font-size: 1.5em;
   line-height: 1.5em;
 }
+.localizacao{
+  background-image: linear-gradient(
+    to bottom,
+    rgba(82, 56, 32, 0.5),
+    rgba(255, 255, 255, 0)
+  ),
+  url(images/localizacao.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position-x: center;
 
+}
 .local {
   padding-top: 2%;
   padding-bottom: 2%;
@@ -131,32 +143,79 @@ h2 {
   color: #f5faf5;
   font-size: 1.5em;
   line-height: 1.5em;
+ 
+}
+
+footer {
+  color: white;
+  margin-top: 25%;
+  text-align: center;
+}
+.cardapio {
   background-image: linear-gradient(
       to bottom,
       rgba(82, 56, 32, 0.5),
       rgba(255, 255, 255, 0)
     ),
-    url(images/localizacao.jpg);
+    url(images/vintage.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
 }
 
-footer {
-  margin-top: 25%;
+
+#tabela{
+  width: 70%;
+  margin: 5% auto 0 auto;
+
+}
+
+table{
+  width: 100%;
+}
+
+.tituloCardapio{
+  padding: 10px 0px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3em;
+  color: white;
+  margin-bottom: 2%;
+}
+
+.legendaTabela{
+  background-color: rgba(54, 28, 4, 0.8);
+  color: white;
   text-align: center;
 }
 
-#mainmenu{
-  background-image: linear-gradient(
-      to bottom,
-      rgba(5, 5, 5, 0.918),
-      rgba(51, 34, 15, 0.849)
-    ),
-    url(/Kombi-coffee-2/images/mainmenu.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #f5faf5;
-  line-height: 3em;
+.itenstabela{
+  text-align: center;
+  padding: 5px 0px;
+  font-size: 1.3em;
 }
+
+table, td{
+  vertical-align: top;
+  padding: 10px;
+  margin: 1%;
+}
+
+.trCorSim{
+  background-color: rgba(250, 248, 246, 0.4);
+}
+
+.fototabela{
+  width: 20%;
+}
+
+
+.strong{
+    font-weight: bolder;
+}
+
+.em{
+  font-size: 1.5em;
+}
+
 
