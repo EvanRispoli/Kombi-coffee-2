@@ -1,4 +1,7 @@
 <h1>Kombi-Coffee 2 (Français)</h1>
+
+https://evanrispoli.github.io/Kombi-coffee-2/
+
 Dans cette tâche, vous devez utiliser le document HTML structuré à l’étape 2 et créer deux nouveaux documents HTML : un pour le menu et un pour le formulaire de contact. S’il n’a pas accompli la tâche de l’étape 2, il doit la réaliser avant d’accomplir les tâches de cette étape.
 
 Vous pouvez utiliser l’outil Notepad++, Sublime ou Adobe Dreamweaver (dans ce cas, utilisez l’interface en mode "Code").  Dans le cas de Notepad++, configurez votre document à "Encode UTF-8" dans le menu : "Encoding -> Convert to UTF-8" ou en français : "Encodage -> Convertir en UTF-8" pour ne pas avoir de problèmes avec l’encodage de caractères spéciaux.
